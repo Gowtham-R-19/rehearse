@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+.env
+
+# build output
+dist/
+
+# logs
+npm-debug.log*
+
+# environment files (keep API keys out of Git!)
+.env
+.env.*
+
+# editor / OS
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
